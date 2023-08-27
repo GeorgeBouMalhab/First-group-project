@@ -1,0 +1,242 @@
+body {
+    margin: 0px; 
+    background-image: url(images/purple_background.jpg);
+    background-size: cover;
+}
+
+.header-front-page {
+    margin-top: 100px;
+}
+
+.front-page {
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    
+}
+
+#logo-front-page {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+
+header {
+    margin: 0px;
+    background-color: #f2e9f8;
+    opacity: 80%;
+    padding-bottom: 20px;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 100px;
+    text-align: center;
+    color: #515f63;
+}
+
+
+
+img {
+    width: 800px;
+    height: 300px;
+    margin-left: 30px;
+    display: inline-block;
+ 
+}
+
+#logo {
+    float: left;
+    width: 130px;
+    height: 120px;
+    margin-left: 10px;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+aside {
+    width: 15%;
+    height: 600px;
+    background-color: #f2e9f8;
+    margin-left: 0px;
+    opacity: 80%;
+}
+
+.menu {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Cinzel', serif;
+    color: #55595B;
+    text-align: start;
+    font-size: x-large;
+}
+
+
+ul {
+
+    font-family: 'Cinzel', serif;
+    color: #55595B;
+    font-size: large;
+    text-align: start;
+    list-style: none;
+    margin-left: 20px;
+    padding-inline-start: 0%;
+    line-height: 50px;
+        
+}
+
+section {
+    width: 85%;
+    background-color: #fff;
+    opacity: 95%;
+    margin: 20px;
+    margin-right: 10px;
+    padding: 20px 40px;
+}
+
+
+article {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: sans-serif;
+    color: #55595B;
+}
+
+h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #55595B;
+    font-size: xx-large;
+}
+
+h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #55595B;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: sans-serif;
+    color: #55595B;
+}
+
+
+footer {
+    font-family: sans-serif;
+    color: #55595B;
+    text-align: center;
+    margin: 0px;
+    padding-top: 0px;
+    background-color: #fff;
+    padding-top: 5px;
+    font-size: 15px;
+    opacity: 95%;
+    
+}
+
+aside a:visited { 
+    color: #55595B;
+}
+
+a:hover {
+    background-color: #f7c3eb;
+    color: #fff;
+    border-radius: 5px;
+}
+
+a:link {
+    text-decoration-line: none;
+    color: #631863;
+    
+}
+
+a:active{
+
+
+    background-color: rgb(176, 88, 226);
+} 
+
+footer p { 
+    display: inline;
+    background-color: #fa6ffa;
+    color: white;
+    text-decoration: bold;
+
+}
+footer div {
+    margin: 10px;
+}
+footer a {
+    color: white;
+}
+    
+/* css för kontaktformuläret */
+    
+fieldset {
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.small-fieldset {
+    max-width: 118px;
+        
+}
+
+legend {
+    font-size: larger;
+}
+form p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; 
+   
+}
+label {
+    flex: 0 1 10ch;
+    text-align: right;
+    padding-right: 1ch;
+}
+
+label text {
+    margin-left: 10px;
+    
+}
+
+.reqfield {
+    flex: 0 0 2ch; 
+    order: 1;
+    text-align: center;
+    padding-right: 0;
+}
+input[type=text],
+input[type=email],
+textarea {
+    flex: 1 1 25ch;
+    max-width: 280px; 
+    
+}
+textarea {
+    height: 5em;
+    resize: vertical;
+    margin-left: 1px;
+}
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    padding: 1em;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 18px;
+} 
+.content {
+    margin-left: 4px; 
+}
